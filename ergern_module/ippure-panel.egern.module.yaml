@@ -6,7 +6,7 @@ dns: {}
 scriptings:
   - generic:
       name: IPPure 纯净度
-      script_url: https://example.com/egern/ippure-purity-panel.js
+      script_url: https://raw.githubusercontent.com/zenwinhow/proxy_tool/refs/heads/main/js/ippure-panel.js
 
 panels:
   - name: IPPure 纯净度
