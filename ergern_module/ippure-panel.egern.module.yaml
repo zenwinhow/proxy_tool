@@ -1,7 +1,6 @@
 name: IPPure 纯净度
 description: 在面板显示当前出口 IP 的纯净度/风险评分（IPPure MyIP API）
 homepage: https://ippure.com/MyIP-Info-API.html
-dns: {}
 
 scriptings:
   - generic:
