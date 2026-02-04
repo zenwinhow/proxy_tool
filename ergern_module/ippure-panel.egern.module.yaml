@@ -1,11 +1,13 @@
-# IPPure - My IP 纯净度面板（Egern Module）
+name: IPPure 纯净度
+description: 在面板显示当前出口 IP 的纯净度/风险评分（IPPure MyIP API）
+homepage: https://ippure.com/MyIP-Info-API.html
+dns: {}
 
 scriptings:
-  - schedule:
-      name: "IPPure - IP纯净度(定时刷新)"
-      # 每 10 分钟刷新一次；不需要定时就删掉整个 schedule 段
-      cron: "*/10 * * * *"
-      script_url: "https://raw.githubusercontent.com/zenwinhow/proxy_tool/refs/heads/main/js/ippure-panel.js"
-      update_interval: 86400
-      timeout: 15
-      debug: false
+  - generic:
+      name: IPPure 纯净度
+      script_url: https://example.com/egern/ippure-purity-panel.js
+
+panels:
+  - name: IPPure 纯净度
+    script_name: IPPure 纯净度
